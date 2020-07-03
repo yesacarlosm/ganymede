@@ -35,5 +35,9 @@
   },
   "engines": {
     "node": "12.18.2"
+  },
+  "devDependencies": {
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6"
   }
 }
