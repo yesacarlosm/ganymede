@@ -10,6 +10,6 @@ export class MainRoutes {
   }
 
   public routes() {
-    this.app.get('/health/check', this.mainController.healthCheck);
+    this.app.get('/api/health/check', this.mainController.healthCheck);
   }
 }
